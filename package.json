@@ -1,0 +1,54 @@
+{
+  "name": "@trip-wisely/frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack serve",
+    "start": "concurrently \"npm run dev\" \"node server.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "9.5.0",
+    "concurrently": "5.1.0",
+    "css-loader": "3.4.2",
+    "file-loader": "5.0.2",
+    "fork-ts-checker-webpack-plugin": "6.5.0",
+    "jest": "25.1.0",
+    "leaflet": "1.8.0",
+    "lodash": "4.17.21",
+    "module-alias": "2.2.2",
+    "notistack": "2.0.3",
+    "query-string": "7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.6",
+    "react-router": "5.2.1",
+    "react-router-dom": "5.3.0",
+    "redux-saga": "1.1.3",
+    "redux-thunk": "2.4.0",
+    "sass": "1.43.4",
+    "sass-loader": "12.3.0",
+    "style-loader": "1.1.3",
+    "ts-jest": "25.2.1",
+    "ts-loader": "9.2.6",
+    "typescript": "4.5.5",
+    "webpack": "5.67.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.7.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "_moduleAliases": {
+    "@app": "./src"
+  },
+  "dependencies": {
+    "axios": "0.26.1",
+    "cors": "2.8.5",
+    "express": "4.18.2"
+  }
+}
